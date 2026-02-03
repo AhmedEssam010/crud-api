@@ -1,12 +1,12 @@
 # CRUD API – Node.js & MongoDB
 
-## 📌 Project Overview
+## Project Overview
 This project is a RESTful CRUD API built using **Node.js**, **Express.js**, and **MongoDB**.  
 The API allows users to create, read, update, and delete products with a clean and scalable backend architecture.
 
 ---
 
-## 🚀 Features
+## Features
 - Create new products
 - Get all products
 - Get product by ID
@@ -18,7 +18,7 @@ The API allows users to create, read, update, and delete products with a clean a
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - Node.js
 - Express.js
 - MongoDB
