@@ -12,17 +12,16 @@ app.use(express.urlencoded({ extended: false }));
 
 // routes
 app.use("/api/products", productRoute);
-
 app.get("/", (req, res) => {
-  res.send("Hello from Node API Server Updated");
+res.send("Hello from Node API Server Updated");
 });
 
 // connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
-  .then(() => {
+.then(() => {
     console.log("Connected to database!");
     app.listen(process.env.PORT, () => {
-      console.log(`Server is running on port ${process.env.PORT}`);
+    console.log(`Server is running on port ${process.env.PORT}`);
     });
   })
   .catch((err) => {
